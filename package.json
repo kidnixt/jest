@@ -1,0 +1,24 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculator.mjs",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kidnixt/jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kidnixt/jest/issues"
+  },
+  "homepage": "https://github.com/kidnixt/jest#readme",
+  "dependencies": {
+    "jest": "^29.2.2"
+  },
+  "type": "module"
+}
