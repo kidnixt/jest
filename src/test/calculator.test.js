@@ -1,5 +1,5 @@
 
-const Calculator = require('../calculator');
+import Calculator from '../calculator';
 
 describe('Calculator', () => {
 

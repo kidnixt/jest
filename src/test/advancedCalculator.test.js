@@ -1,4 +1,4 @@
-const AdvancedCalculator = require('../advancedCalculator');
+import AdvancedCalculator from '../advancedCalculator';
 
 describe('advancedCalculator', () => {
 

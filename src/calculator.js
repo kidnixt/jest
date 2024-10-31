@@ -1,7 +1,7 @@
-class Calculator {
+export default class Calculator {
   sum(a, b) {
     if (typeof a !== 'number' || typeof b !== 'number') {
-        throw new Error('both arguments must be numbers');
+      throw new Error('both arguments must be numbers');
     }
     return a + b;
   }
@@ -21,5 +21,3 @@ class Calculator {
     return a / b;
   }
 }
-
-module.exports = Calculator;
